@@ -14,6 +14,7 @@
 		220AD38C1DDED5A20023AE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220AD38B1DDED5A20023AE09 /* Assets.xcassets */; };
 		220AD38F1DDED5A20023AE09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220AD38D1DDED5A20023AE09 /* LaunchScreen.storyboard */; };
 		220AD39B1DDED60B0023AE09 /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220AD39A1DDED60B0023AE09 /* SliderViewController.m */; };
+		220AD3A31DDEE80E0023AE09 /* Untitled.gif in Resources */ = {isa = PBXBuildFile; fileRef = 220AD3A21DDEE80E0023AE09 /* Untitled.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		220AD3901DDED5A20023AE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		220AD3991DDED60B0023AE09 /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
 		220AD39A1DDED60B0023AE09 /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
+		220AD3A21DDEE80E0023AE09 /* Untitled.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Untitled.gif; path = ../Untitled.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		220AD3731DDED5A20023AE09 = {
 			isa = PBXGroup;
 			children = (
+				220AD3A11DDEE8030023AE09 /* Gif */,
 				220AD37E1DDED5A20023AE09 /* SliderViewController */,
 				220AD37D1DDED5A20023AE09 /* Products */,
 			);
@@ -82,6 +85,14 @@
 				220AD3801DDED5A20023AE09 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		220AD3A11DDEE8030023AE09 /* Gif */ = {
+			isa = PBXGroup;
+			children = (
+				220AD3A21DDEE80E0023AE09 /* Untitled.gif */,
+			);
+			name = Gif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				220AD38F1DDED5A20023AE09 /* LaunchScreen.storyboard in Resources */,
+				220AD3A31DDEE80E0023AE09 /* Untitled.gif in Resources */,
 				220AD38C1DDED5A20023AE09 /* Assets.xcassets in Resources */,
 				220AD38A1DDED5A20023AE09 /* Main.storyboard in Resources */,
 			);
@@ -313,6 +325,7 @@
 				220AD3951DDED5A20023AE09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
