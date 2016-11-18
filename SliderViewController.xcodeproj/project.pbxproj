@@ -13,6 +13,7 @@
 		220AD38A1DDED5A20023AE09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220AD3881DDED5A20023AE09 /* Main.storyboard */; };
 		220AD38C1DDED5A20023AE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220AD38B1DDED5A20023AE09 /* Assets.xcassets */; };
 		220AD38F1DDED5A20023AE09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220AD38D1DDED5A20023AE09 /* LaunchScreen.storyboard */; };
+		220AD39B1DDED60B0023AE09 /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220AD39A1DDED60B0023AE09 /* SliderViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		220AD38B1DDED5A20023AE09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		220AD38E1DDED5A20023AE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		220AD3901DDED5A20023AE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220AD3991DDED60B0023AE09 /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
+		220AD39A1DDED60B0023AE09 /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				220AD3831DDED5A20023AE09 /* AppDelegate.m */,
 				220AD3851DDED5A20023AE09 /* ViewController.h */,
 				220AD3861DDED5A20023AE09 /* ViewController.m */,
+				220AD3991DDED60B0023AE09 /* SliderViewController.h */,
+				220AD39A1DDED60B0023AE09 /* SliderViewController.m */,
 				220AD3881DDED5A20023AE09 /* Main.storyboard */,
 				220AD38B1DDED5A20023AE09 /* Assets.xcassets */,
 				220AD38D1DDED5A20023AE09 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				220AD3871DDED5A20023AE09 /* ViewController.m in Sources */,
 				220AD3841DDED5A20023AE09 /* AppDelegate.m in Sources */,
 				220AD3811DDED5A20023AE09 /* main.m in Sources */,
+				220AD39B1DDED60B0023AE09 /* SliderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
